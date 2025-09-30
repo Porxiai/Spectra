@@ -6,7 +6,7 @@ Advanced UI Components with Security Integration
 local Elements = {}
 
 -- Import Spectra core
-local Spectra = _G.Spectra or loadstring(game:HttpGet("https://raw.githubusercontent.com/spectra-ui/Spectra/main/spectra.lua"))()
+local Spectra = _G.Spectra or loadstring(game:HttpGet("https://raw.githubusercontent.com/Porxiai/Spectra/main/spectra.lua"))()
 
 -- Advanced Button System (400+ lines)
 function Elements:CreateButton(section, config)
