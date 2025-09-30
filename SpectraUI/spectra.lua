@@ -5,7 +5,16 @@
 ╚════██║██╔═══╝ ██╔══╝  ██║        ██║   ██╔══██╗██╔══██║
 ███████║██║     ███████╗╚██████╗   ██║   ██║  ██║██║  ██║
 ╚══════╝╚═╝     ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
-                                                            
+
+
+SpectraUI/
+│
+├── 🔥 spectra.lua              (MAIN LIBRARY - 15,000+ LINES)
+├── 🎨 elements.lua             (ELEMENTS - 5,000+ LINES)
+├── 🛡️ security.lua             (SECURITY SYSTEM - 3,000+ LINES)
+└── 🚀 example.lua              (USAGE EXAMPLE - 500+ LINES)
+
+
 SPECTRA UI LIBRARY v3.0 - ULTIMATE EDITION
 ADVANCED ROBLOX UI FRAMEWORK WITH MILITARY-GRADE SECURITY
 DEVELOPED BY SPECTRA DEVELOPMENT TEAM
