@@ -3,6 +3,18 @@ Spectra Security Core
 Advanced Protection & Anti-Cheat System
 --]]
 
+
+<------------ PASTE THIS AT THE VERY TOP OF security.lua ------------>
+-- Spectra Security System
+local Security = {}
+
+-- Load Spectra core for user validation
+local Spectra = _G.Spectra
+
+-- YOUR EXISTING SECURITY CODE STARTS HERE (keep all your current code below this line)
+<------------ END OF PASTE ------------>
+
+
 local Security = {
     ThreatLevel = 0,
     ActiveProtections = {},
