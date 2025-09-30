@@ -7,14 +7,6 @@
 ╚══════╝╚═╝     ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
 
 
-SpectraUI/
-│
-├── 🔥 spectra.lua              (MAIN LIBRARY - 15,000+ LINES)
-├── 🎨 elements.lua             (ELEMENTS - 5,000+ LINES)
-├── 🛡️ security.lua             (SECURITY SYSTEM - 3,000+ LINES)
-└── 🚀 example.lua              (USAGE EXAMPLE - 500+ LINES)
-
-
 SPECTRA UI LIBRARY v3.0 - ULTIMATE EDITION
 ADVANCED ROBLOX UI FRAMEWORK WITH MILITARY-GRADE SECURITY
 DEVELOPED BY SPECTRA DEVELOPMENT TEAM
@@ -25,6 +17,22 @@ THIS MESSAGE CANNOT BE REMOVED - MUST REMAIN IN ALL DISTRIBUTIONS
 -- =============================================================================
 -- SECTION 1: CORE LIBRARY INITIALIZATION & CONFIGURATION (2000+ LINES)
 -- =============================================================================
+
+-- Spectra UI Library Loader
+local Spectra = {}
+
+-- Load security system first
+Spectra.Security = loadstring(game:HttpGet("https://raw.githubusercontent.com/Porxiai/Spectra/main/security.lua"))()
+
+-- Load elements system  
+Spectra.Elements = loadstring(game:HttpGet("https://raw.githubusercontent.com/Porxiai/Spectra/main/elements.lua"))()
+
+-- Make it globally accessible
+_G.Spectra = Spectra
+
+-- YOUR EXISTING SPECTRA CODE STARTS HERE (keep all your current code below this line)
+<------------ END OF PASTE ------------>
+
 
 local Spectra = {
     -- Core Library Metadata
